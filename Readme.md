@@ -1,6 +1,6 @@
 # retape
 
-[![browser support](http://ci.testling.com/gozala/retape.png)](http://ci.testling.com/gozala/retape)
+[![browser support](http://ci.testling.com/Gozala/retape.png)](http://ci.testling.com/Gozala/retape)
 [![Build Status](https://secure.travis-ci.org/Gozala/retape.png)](http://travis-ci.org/Gozala/retape)
 
 
