@@ -1,6 +1,15 @@
 "use strict";
 
 var tape = require("tape")
+var owns = Object.prototype.hasOwnProperty
+var keys = Object.keys || function(object) {
+  var result = []
+  for (var key in object) {
+    if (owns.call(object, object[key])) {
+      result.push(key)
+    }
+  }
+}
 
 function adaptAsync(unit) {
   return function(assert) {
