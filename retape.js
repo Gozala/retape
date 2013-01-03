@@ -43,8 +43,8 @@ function adapt(suite, test) {
       test(name, function(test) {
         adapt(unit, function(name, unit) {
           test.test(name, unit)
-          test.end()
         })
+        test.end()
       })
     }
   })
